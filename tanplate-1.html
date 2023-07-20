@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite</title>
+    <style>
+         *{margin: 0; box-sizing: border-box;}
+        body{background-color: rgb(54, 107, 181);}
+
+        .fl{float: left;}
+        .fr{float: right;}
+        .new{float:left;margin-left: 2%;}
+        .clr{clear:both;}
+
+        .b1{border: 3px solid black;}
+        .b2{border-bottom:3px solid ;}
+
+        .bg1{
+            background-image: url(images/istockphoto-1371339413-1024x1024.jpg);
+            background-size: 100% 100%;
+            background-position:center;
+            
+        }
+        .bg2{
+            background-color: rgb(54, 107, 181);
+        }
+
+        .wapper{width:85%;margin: auto;box-shadow: 0 0 40px 12px rgb(244, 241, 241);}
+
+        .head{
+            width: 100%;
+            height: 70vh;
+        }
+        .head-1{
+            width: 50%;
+            height: 8vh;
+            color: white;
+        }
+        .head-1 p{
+            margin: 2vh 0;
+            word-spacing: 8px;
+            font-size:18px;
+        }
+        .head-2{
+            color:white;
+            text-align: center;
+        }
+        .head-2 h1{
+            font-size:80px;
+            text-shadow:-3px -2px 4px gold , 3px 2px 4px red;
+            padding-top:20vh;
+        }
+        .head-2 p{
+            font-size: 20px;
+            padding:2vh 30%;
+        }
+        .box{
+            margin: auto;
+            padding: 2.5vh 0;
+            width:20%;
+            height:8vh;
+            border-radius:50%;
+            background-color: white;
+            color: rgb(20, 89, 186);
+            font-size: 20px;
+        }
+        .main-1{
+            background-color: whitesmoke;
+            width: 100%;
+            height: 50vh;
+            text-align: center;
+        }
+
+        .main-1 h1{
+            font-size:40px;
+            text-shadow:-1px -2px 1px gold , 2px 2px 1px red;
+            padding-top:10vh;
+            font-style: italic;
+            color: rgb(20, 89, 186);
+        }
+        .main-1 p{
+            font-size:20px;
+            padding:5vh 20%;
+        }
+        .main-2{
+            width: 100%;
+            height: 40vh;
+            background-color: black;
+        }
+        .col-3{
+            width: 33%;
+            height: 100%;
+            text-align: center;
+            color: white;
+        }
+        .col-3 img{
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            margin-top:1vh;
+            padding-top:1.2vh;
+            width:50px;
+            height:8vh;
+        }
+        .col-3 h2{
+            padding:2vh 0;
+        }
+        .col-3 p{
+            padding:0 20%;
+        }
+
+        .main-3{
+            width: 100%;
+            height:62vh;
+            background-color: whitesmoke;
+            text-align: center;
+        }
+        .main-3 h1{
+            font-size:40px;
+            padding-top:10vh;
+            font-style: italic;
+            color: rgb(20, 89, 186);
+        }
+        .main-3 p{
+            font-size:20px;
+            padding:2vh 20%;
+            color: rgb(154, 151, 151);
+        }
+        .main-3-1{
+            width: 80%;
+            margin:0 10%;
+        }
+        .col-1-3{
+            width: 32%;
+            height: 8vh;
+            background-color:rgb(218, 220, 220);
+            color: #608DD4;
+            margin-top: 2vh;
+        }
+        .col-1-3 img{
+            border: 2px solid #608DD4;
+            border-radius: 50%;
+            margin-top:1vh;
+            padding-top:1.2vh;
+            width:50px;
+            height:70%;
+        }
+        .col-1-3 h3{ padding: 2vh;}
+
+        .main-4{
+            width: 100%;
+            height: 35vh;
+        }
+        .col-4{
+            width: 25%;
+            height: 100%;
+            text-align: center;
+            color: #ffffff;
+        }
+        .col-4 img{
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            margin-top:6vh;
+            padding-top:1.2vh;
+            width:50px;
+            height:8vh;
+        }
+        .col-4 h1{font-size: 50px;margin:2vh 0;}
+
+        .main-5{
+            width: 100%;
+            height:85vh;
+            background-color:whitesmoke;
+            text-align: center;
+        }
+        .main-5 h1{
+            font-size:40px;
+            padding-top:10vh;
+            font-style: italic;
+            color: rgb(20, 89, 186);
+        }
+        .main-5 p{
+            font-size:20px;
+            padding:2vh 20%;
+            color: rgb(154, 151, 151);
+        }
+        .main-5-3{
+            width: 33.33%;
+            height: 25vh;
+        }
+
+        .footer{
+            width: 100%;
+            height:20vh;
+           
+        }
+        .footer img{
+            width:90px;
+            height:12vh;
+            border: 3px double white;
+            border-radius: 50% 0% 0% 50%;
+            margin: 5vh 10px 2vh 40%;
+        }
+        .footer h1{
+            color: #ffffff;
+            margin: 4vh 10px 2vh 0px;
+            font-size: 30px;
+        }
+        h1>p{font-size: 15px;}
+    </style>
+</head>
+<body>
+    <div class="wapper">
+        <div class="head bg1">
+            <div class="head-1 fl "></div>
+            <div class="head-1 fr ">
+                <p>HOME  |  About Us  |  Our Services  |  Our Portfolid  |  Content Us  </p>
+            </div>
+            <div class="crl"></div>
+            <div class="head-2">
+                <h1>Web Development</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi Lorem ipsum dolor sit amet consectetur </p>
+                <div class="box b2">GET STARTED</div>
+            </div>
+        </div>
+        <div class="main-1">
+            <h1>WELCOME TO OUR WEBSITE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellendus deleniti ab hic architecto magni assumenda, ut recusandae esse sapiente! Sint, unde! Perspiciatis voluptatum corrupti similique possimus dolor minus incidunt!</p>
+            <div class="box b2">Read More</div>
+        </div>
+        <div class="main-2">
+            <div class="col-3 fl bg2">
+                <img src="images/undraw_articles_wbpb.svg" alt="">
+                <h2>Our Story</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus odio nobis expedita laudantium quis. Quia distinctio velit in, voluptatum saepe incidunt necessitatibus blanditiis</p>
+            </div>
+            <div class="col-3 fl"> 
+                <img src="images/undraw_fitting_piece_re_pxay.svg" alt="">
+                <h2>Our Mission</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus odio nobis expedita laudantium quis. Quia distinctio velit in, voluptatum saepe incidunt necessitatibus blanditiis</p>
+            </div>
+            <div class="col-3 fr bg2">
+                <img src="images/undraw_career_progress_ivdb.svg" alt="">
+                <h2>Our Vision</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus odio nobis expedita laudantium quis. Quia distinctio velit in, voluptatum saepe incidunt necessitatibus blanditiis</p>
+            </div>
+        </div>
+        <div class="main-3">
+            <h1>Our Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellendus deleniti ab hic architecto magni assumenda,!</p>
+            <div class="main-3-1">
+                <div class="col-1-3 fl">
+                    <img src="images/undraw_progressive_app_m-9-ms.svg"  alt="" class="fl">
+                    <h3 class="fl">WEB DESEGN</h3>
+                </div>
+                <div class="col-1-3 new">
+                    <img src="images/undraw_game_world_re_e44j.svg"  alt="" class="fl">
+                    <h3 class="fl">WEB DEVELOPMENT</h3>
+                </div>
+                <div class="col-1-3 fr">
+                    <img src="images/undraw_wordpress_utxt.svg"  alt="" class="fl">
+                    <h3>THEME DEVELOPMENT</h3>
+                </div>
+                <div class="clr"></div>
+                <div class="col-1-3 fl">
+                    <img src="images/undraw_game_world_re_e44j.svg"  alt="" class="fl">
+                    <h3 class="fl">GAME DEVELOPMENT</h3>
+                </div>
+                <div class="col-1-3 new">
+                    <img src="images/undraw_android_jr64.svg"  alt="" class="fl">
+                    <h3 class="fl">APPS DEVELOPMENT</h3>
+                </div>
+                <div class="col-1-3 fr">
+                    <img src="images/undraw_progressive_app_m-9-ms.svg"  alt="" class="fl">
+                    <h3>DESKTOP APPLICATION</h3>
+                </div>
+                <div class="clr"></div>
+                <div class="col-1-3 fl">
+                    <img src="images/undraw_wordpress_utxt.svg"  alt="" class="fl">
+                    <h3>WORDPRESS THEMES</h3>
+                </div>
+                <div class="col-1-3 new">
+                    <img src="images/undraw_android_jr64.svg"  alt="" class="fl">
+                    <h3 class="fl">WORDPRESS PLUGINS</h3>
+                </div>
+                <div class="col-1-3 fr">
+                    <img src="images/undraw_game_world_re_e44j.svg"  alt="" class="fl">
+                    <h3 class="fl">SUPPORT & IT</h3>
+                </div>
+            </div>
+        </div>
+        <div class="main-4 bg2">
+            <div class="main-3-1">
+                <div class="col-4 fl">
+                    <img src="images/undraw_online_calendar_re_wk3t.svg" alt="">
+                    <h1>12<small>+</small></h1>
+                    <p>Year of Experience</p>
+                </div>
+                <div class="col-4 fl">
+                    <img src="images/undraw_project_complete_lwss.svg" alt="">
+                    <h1>999<small>+</small></h1>
+                    <p>Completed Projects</p>
+                </div>
+                <div class="col-4 fl">
+                    <img src="images/undraw_interview_re_e5jn.svg" alt="">
+                    <h1>480<small>+</small></h1>
+                    <p>Totals Clients</p>
+                </div>
+                <div class="col-4 fr">
+                    <img src="images/undraw_winners_re_wr1l.svg" alt="">
+                    <h1>15<small>+</small></h1>
+                    <p>Award Won</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-5">
+            <h1>Our Portfolio</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vel sapiente qui nostrum commodi nulla consectetur architecto nam reiciendis fugit</p>
+            <div class="main-3-1">
+                <div class="main-5-3 fl">
+                   <img src="images/pexels-lisa-fotios-16129877.jpg"width="100%"height="100%" alt="">
+                </div>
+                <div class="main-5-3 fl ">
+                    <img src="images/pexels-lukas-574073.jpg"width="100%"height="100%" alt="">
+                </div>
+                <div class="main-5-3 fr ">
+                    <img src="images/pexels-kevin-ku-577585.jpg"width="100%"height="100%" alt="">
+                </div>
+                <div class="main-5-3 fl">
+                    <img src="images/pexels-lukas-574073.jpg"width="100%"height="100%" alt="">
+                 </div>
+                 <div class="main-5-3 fl ">
+                     <img src="images/pexels-kevin-ku-577585.jpg"width="100%"height="100%" alt="">
+                 </div>
+                 <div class="main-5-3 fr ">
+                     <img src="images/pexels-lisa-fotios-16129877.jpg"width="100%"height="100%" alt="">
+                 </div>
+            </div>
+        </div>
+        <div class="footer">
+            <img src="images/IMG_20220325_135615_448.jpg" class="fl" alt="">
+            <h1 class="fl">Neha Sharma
+            <p>Web Development</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p></h1>
+        </div>
+    </div>
+</body>
+</html>
