@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tamplate</title>
+    <style>
+        .bg{
+            background-color: gold;
+        }
+        .bg-1{
+            background-color: chartreuse;
+        }
+        .bg-2{
+            background-color: chocolate;
+        }
+        .bg-3{
+            background-color:darkgreen;
+        }
+
+        /* floating requird element */
+        .fl{ float:left;}
+        .fr{float:right;}
+        .clr{clear: both;}
+        .new{float:left; margin-left:1%;}
+
+
+        .col-1{
+            height:100px;
+            margin-top: 1vh;
+            text-align: center;
+        }
+
+        .col-5{
+            height:50px;
+            width:19.25%;
+            margin-top: 1vh;
+        }
+        .col-2{
+            height:375px;
+            margin-top: 1vh;
+        }
+        .left {
+            width:79.75%;
+        }
+        .right {
+            width:19.75%;
+        }
+    </style>
+</head>
+<body>
+    <div class="col-1 bg"><h1>heading</h1></div>
+
+    <div class="col-5 bg fl"></div>
+    <div class="col-5 bg-1 new"></div>
+    <div class="col-5 bg-2 new"></div>
+    <div class="col-5 bg-3 new"></div>
+    <div class="col-5 bg fr"></div>
+    <div class="clr"></div>
+
+    <div class="col-2 fl bg-2 left"></div>
+    <div class="col-2 fr bg-1 right"></div>
+    <div class="clr"></div>
+
+    <div class="col-1 bg"><h1>Footer</h1></div>
+</body>
+</html>
