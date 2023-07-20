@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fixed</title>
+    <style>
+        *{margin: 0%;box-sizing: border-box;}
+        .bg1{background-color: rgb(186, 211, 77);}
+        .bg2{background-color: rgb(224, 157, 33);}
+        .bg3{background-color: rgb(54, 80, 188);}
+
+        .head{
+            height: 10vh;
+            width: 100%;
+            background-color: blueviolet;
+            position: fixed;
+            top: 0px;
+        }
+        .banner{
+            margin-top: 11vh;
+            height: 89vh;
+            width: 100%;
+            background-color: rgb(53, 222, 132);
+        }
+        .mid{
+            height: 100vh;
+            width: 100%;
+        }
+        .footer{
+            height: 10vh;
+            width: 100%;
+            background-color: rgb(221, 78, 92);
+        }
+        .chat{
+            width: 50px;
+            height: 50px;
+            border: 5px solid white;
+            border-radius: 50%;
+            position: fixed;
+            bottom:5vh;
+            right:5%;
+            background-color: teal;
+        }
+    </style>
+</head>
+<body>
+    <div class="head"></div>
+    <div class="chat"></div>
+    <div class="banner"></div>
+    <div class="mid bg1"></div>
+    <div class="mid bg2"></div>
+    <div class="mid bg3"></div>
+    <div class="footer"></div>
+</body>
+</html>

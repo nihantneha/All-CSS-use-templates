@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0%;box-sizing: border-box;}
+        .parent{
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            background-color: whitesmoke;
+        }
+
+        .child{
+            height:60vh;
+            width: 100%;
+            position: absolute;
+            bottom: 30vh;
+            background-color:darkgray;
+        }
+        .head{
+            position: absolute;
+            width: 100%;
+            height: 10vh;
+            bottom:60vh;
+           
+        }
+        .head img{position: absolute;left:10%;top: 0.5vh;}
+
+        .head p{position: absolute;right:10%;font-size: 18px;top: 4vh;}
+
+        .mid{
+            position: absolute;
+            width:40%;
+            height:35vh;
+            bottom:15vh;
+            left: 30%;
+            color: white;
+            text-align: center;
+        }
+        .mid h1{
+            position: absolute;
+            top:2vh;
+            left:25%;
+            font-size:70px;
+        }
+        .mid p{
+            position: absolute;
+            top:15vh;
+            font-size:15px;
+        }
+        .button{
+            width: 30%;
+            height: 5vh;
+            background-color: gray;
+            border-radius:50px;
+            position: absolute;
+            left: 40%;
+            top: 25vh;
+            padding-top:1vh;
+        }
+        .box{
+            position: absolute;
+            width: 15%;
+            height:35vh;
+            background-color: white;
+            text-align: center;
+        }
+        .box img{position: absolute;top: 5vh;left: 32%;}
+        .box h3{position: absolute;top: 17vh;left:40%}
+        .box p{position: absolute;top: 22vh;font-size: 10px;}
+        .p1{top: 45vh; left:23%;}
+        .p2{top: 45vh; left:43%;}
+        .p3{top: 45vh; left:63%;}
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <div class="head">
+              <img src="images/OIP-removebg-preview (3).png" alt="" width="50px" height="60vh">
+               <p>red | blue | green | yellow | pink | purple</p> 
+            </div>
+
+            <div class="mid">
+                <h1>I &nbsp; <img src="images/Screenshot 2023-07-18 150213.png" alt=""> &nbsp; Color</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequuntur ducimus labore sequi impedit corrupti temporibus tempora, perspiciatis, voluptate</p>
+                <div class="button">Over to you</div>
+            </div>
+
+            <div class="box p1">
+                <img src="images/Screenshot 2023-07-18 144655.png" alt="">
+                <h3>Blue</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae incidunt dicta dolor aperiam reiciendis dignissimos minus quaerat saepe sint.</p>
+            </div>
+            <div class="box p2">
+                    <img src="images/Screenshot 2023-07-18 144703.png" alt="">
+                    <h3>Green</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae incidunt dicta dolor aperiam reiciendis dignissimos minus quaerat saepe sint.</p>
+            </div>
+            <div class="box p3">
+                    <img src="images/Screenshot 2023-07-18 144708.png" alt="">
+                    <h3>Red</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae incidunt dicta dolor aperiam reiciendis dignissimos minus quaerat saepe sint.</p>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
